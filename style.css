@@ -98,8 +98,13 @@
     font-size: 1rem;
 }
 
-.search-form button{
+.search-button-container{
     width: 20%;
+    height: auto;
+}
+
+.search-button-container button{
+    width: 100%;
     height: auto;
     padding: 0.5rem 1.25rem 0.5rem 1.25rem;
     border: none;
@@ -107,7 +112,8 @@
     background-color: #F8F8F8;
 }
 
-.search-form button :hover{
+
+.search-button-container button :hover{
     background-color: #D8DBDF;
 }
 
