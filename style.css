@@ -160,10 +160,10 @@
 
 .side-bar-container{
     width: 245px;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 1.25rem 0.75rem 1.25rem 0.75rem;
+    padding: 1.25rem 0.75rem 4rem 0.75rem;
     position: fixed;
     background-color: white;
 }
@@ -246,6 +246,11 @@
     align-items: center;
     column-gap: 0.5rem;
     position: fixed;
+    overflow-x: auto;
+    white-space: nowrap;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
     z-index: 1;
 }
 
